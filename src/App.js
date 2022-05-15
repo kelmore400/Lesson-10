@@ -10,10 +10,10 @@ class App extends React.Component {
   render () {
     return (
       <div className={styles.App}>
-        <ModalProvider>
-          {renderRoutes(routes)}
-          <ModalRoot />
-        </ModalProvider>
+          <ModalProvider>
+            {renderRoutes(routes)}
+            <ModalRoot />
+          </ModalProvider>
       </div>
     );
   }
